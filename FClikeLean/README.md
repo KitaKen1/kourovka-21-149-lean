@@ -20,7 +20,8 @@ there is no `FormalConjectures/Kourovka/21_149.lean`.
   | `kourovka_21_149.variants.not_inner` | the original problem (Kourovka v43): not inner | [pitmonticone/Kourovka](https://github.com/pitmonticone/Kourovka) (Aristotle), and this repository, lines 5777–5786 |
 
   The line numbers refer to [`../lean/Kourovka21149FC.lean`](../lean/Kourovka21149FC.lean).
-  Replace `COMMIT` with the commit hash of this repository after it is published.
+  The links are permalinks to commit
+  [`5c34c22`](https://github.com/KitaKen1/kourovka-21-149-lean/tree/5c34c22661071d412f66a42009a1fe68db473b31) of this repository.
 - [`PR_DRAFT.md`](PR_DRAFT.md) is a draft of the pull request title and description.
 
 The `by sorry` proofs in `21_149.lean` are intentional: Formal Conjectures is a statement

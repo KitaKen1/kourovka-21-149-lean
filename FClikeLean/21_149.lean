@@ -100,7 +100,7 @@ order-preserving embeddings of [GYZ]. The slope groups are arbitrary.
 -/
 @[category research solved, AMS 6 20,
   formal_proof using lean4 at
-    "https://github.com/KitaKen1/kourovka-21-149-lean/blob/COMMIT/lean/Kourovka21149FC.lean#L5740-L5775"]
+    "https://github.com/KitaKen1/kourovka-21-149-lean/blob/5c34c22661071d412f66a42009a1fe68db473b31/lean/Kourovka21149FC.lean#L5740-L5775"]
 theorem kourovka_21_149 : answer(True) ↔
     ∃ (K : Subgroup NNRealˣ) (G : Subgroup (ℝ ≃o ℝ)), IsDlabGroup K G ∧
       ∃ α : G ≃* G, (∀ f g : G, DlabLt (α f) (α g) ↔ DlabLt f g) ∧
@@ -119,7 +119,7 @@ in [vDJMM, Appendix A].
   formal_proof using lean4 at
     "https://github.com/pitmonticone/Kourovka/blob/dcfdbdad8c434e30f6151fb3b4343364d70eeed4/Kourovka/Problem_21_149.lean#L770-L775",
   formal_proof using lean4 at
-    "https://github.com/KitaKen1/kourovka-21-149-lean/blob/COMMIT/lean/Kourovka21149FC.lean#L5777-L5786"]
+    "https://github.com/KitaKen1/kourovka-21-149-lean/blob/5c34c22661071d412f66a42009a1fe68db473b31/lean/Kourovka21149FC.lean#L5777-L5786"]
 theorem kourovka_21_149.variants.not_inner : answer(True) ↔
     ∃ (K : Subgroup NNRealˣ) (G : Subgroup (ℝ ≃o ℝ)), IsDlabGroup K G ∧
       ∃ α : G ≃* G, (∀ f g : G, DlabLt (α f) (α g) ↔ DlabLt f g) ∧

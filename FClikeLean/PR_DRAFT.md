@@ -2,12 +2,9 @@
 
 Before opening the pull request:
 
-1. Publish this repository as `KitaKen1/kourovka-21-149-lean`, or change the links below and in
-   `21_149.lean` to the actual name.
-2. Replace `COMMIT` with the published commit hash, here and in `21_149.lean`.
-3. Copy `21_149.lean` to `FormalConjectures/Kourovka/21_149.lean` in a fork of Formal
+1. Copy `21_149.lean` to `FormalConjectures/Kourovka/21_149.lean` in a fork of Formal
    Conjectures and run `lake --wfail build 'FormalConjectures.Kourovka.«21_149»'`.
-4. Sign the Google CLA if needed. Optionally open an issue first, as
+2. Sign the Google CLA if needed. Optionally open an issue first, as
    [CONTRIBUTING.md](https://github.com/google-deepmind/formal-conjectures/blob/main/CONTRIBUTING.md)
    suggests.
 
@@ -55,14 +52,14 @@ theorem kourovka_21_149 : answer(True) ↔
 
 Proofs:
 
-- `kourovka_21_149`: https://github.com/KitaKen1/kourovka-21-149-lean/blob/COMMIT/lean/Kourovka21149FC.lean#L5740-L5775
+- `kourovka_21_149`: https://github.com/KitaKen1/kourovka-21-149-lean/blob/5c34c22661071d412f66a42009a1fe68db473b31/lean/Kourovka21149FC.lean#L5740-L5775
 - `kourovka_21_149.variants.not_inner`:
   https://github.com/pitmonticone/Kourovka/blob/dcfdbdad8c434e30f6151fb3b4343364d70eeed4/Kourovka/Problem_21_149.lean#L770-L775
-  and https://github.com/KitaKen1/kourovka-21-149-lean/blob/COMMIT/lean/Kourovka21149FC.lean#L5777-L5786
+  and https://github.com/KitaKen1/kourovka-21-149-lean/blob/5c34c22661071d412f66a42009a1fe68db473b31/lean/Kourovka21149FC.lean#L5777-L5786
 
 Repository: https://github.com/KitaKen1/kourovka-21-149-lean
 
-Lean4Web: https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Fkourovka-21-149-lean%2FCOMMIT%2Flean4web%2FKourovka21149Lean4Web.lean
+Lean4Web: https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Fkourovka-21-149-lean%2F5c34c22661071d412f66a42009a1fe68db473b31%2Flean4web%2FKourovka21149Lean4Web.lean
 
 The proof file imports `FormalConjecturesUtil` at commit `2424bb48` and copies the definitions of
 this file verbatim. For both statements, `#print axioms` reports only `propext`,
